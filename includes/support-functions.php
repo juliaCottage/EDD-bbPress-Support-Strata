@@ -939,7 +939,7 @@ function edd_bbp_common_issues() {
 			<p><p style="font-size:16px; position: relative;top: -5px"><strong>Have you consulted the User Guide and reviewed the CX 8 Getting Started dialog (both available from the Help menu of your Strata software)? You can also review videos in the <a href="https://www.strata.com/university/"> Strata 3D University</a> and search these forums.</strong></p>
             <div>
 				<label for="edd-bbp-no-docs">
-					<p style="position: relative;top: 0px; position: relative;left: 20px; text-transform: none"><input type="radio" id="edd-bbp-no-docs"  name="edd-bbp-docs-help" value="2"/> I searched the forums and didn't find topics or posts about my issue.
+					<p style="position: relative;top: 0px; position: relative;left: 20px; text-transform: none"><input type="radio" id="edd-bbp-no-posts"  name="edd-bbp-docs-help" value="1"/> I searched the forums and didn't find topics or posts about my issue.
 				</label>
 			</div>
 			<div>
@@ -949,7 +949,7 @@ function edd_bbp_common_issues() {
 			</div>
 			<div>
 				<label for="edd-bbp-docs-no-help">
-					<p style="position: relative;top: -20px; position: relative;left: 20px; text-transform: none"><input type="radio" id="edd-bbp-docs-no-help" name="edd-bbp-docs-help" value="1"/> The available information didn't help or isn't applicable to my situation.
+					<p style="position: relative;top: -20px; position: relative;left: 20px; text-transform: none"><input type="radio" id="edd-bbp-docs-no-help" name="edd-bbp-docs-help" value="3"/> The available information didn't help or isn't applicable to my situation.
 				</label>
 			</div>
          </div>
