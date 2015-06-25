@@ -897,7 +897,17 @@ function edd_bbp_common_issues() {
 				$('#bbp-new-topic-fields').show();
 			}
 		});
+
+		//Show new topic fields on radio button select
+		$('#edd-bbp-common-issues').next().next().hide();
+
+		 $('#strata-topic-radio-buttons input:radio').click(function() {
+		   $('#edd-bbp-common-issues').next().next().show();
+		 });
+
 	});
+
+
 	</script>
 
 	<div id="edd-bbp-common-issues">
@@ -925,16 +935,16 @@ function edd_bbp_common_issues() {
 			</div>
 		</div>
 
-		<div>
+		<div id="strata-topic-radio-buttons">
 			<p><p style="font-size:16px; position: relative;top: -5px"><strong>Have you consulted the User Guide and reviewed the CX 8 Getting Started dialog (both available from the Help menu of your Strata software)? You can also review videos in the <a href="https://www.strata.com/university/"> Strata 3D University</a> and search these forums.</strong></p>
             <div>
 				<label for="edd-bbp-no-docs">
-					<p style="position: relative;top: 0px; position: relative;left: 20px; text-transform: none"><input type="radio" id="edd-bbp-no-docs" name="edd-bbp-docs-help" value="2"/> I searched the forums and didn't find topics or posts about my issue.
+					<p style="position: relative;top: 0px; position: relative;left: 20px; text-transform: none"><input type="radio" id="edd-bbp-no-docs"  name="edd-bbp-docs-help" value="2"/> I searched the forums and didn't find topics or posts about my issue.
 				</label>
 			</div>
 			<div>
 				<label for="edd-bbp-no-docs">
-					<p style="position: relative;top: -10px; position: relative;left: 20px; text-transform: none"><input type="radio" id="edd-bbp-no-docs" name="edd-bbp-docs-help" value="2"/> I didn't find any documentation or videos about my issue.
+					<p style="position: relative;top: -10px; position: relative;left: 20px; text-transform: none"><input type="radio" id="edd-bbp-no-docs"  name="edd-bbp-docs-help" value="2"/> I didn't find any documentation or videos about my issue.
 				</label>
 			</div>
 			<div>
