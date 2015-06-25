@@ -902,7 +902,7 @@ function edd_bbp_common_issues() {
 		$('#edd-bbp-common-issues').next().next().hide();
 
 		 $('#strata-topic-radio-buttons input:radio').click(function() {
-		   $('#edd-bbp-common-issues').next().next().show();
+		   $('.bbp-the-content-wrapper').parent().show();
 		 });
 
 	});
