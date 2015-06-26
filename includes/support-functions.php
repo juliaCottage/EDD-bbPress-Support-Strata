@@ -899,7 +899,7 @@ function edd_bbp_common_issues() {
 		// });
 
 		//Show new topic fields on radio button select
-		$('#edd-bbp-common-issues').next().next().hide();
+		$('.bbp-the-content-wrapper').parent().hide();
 
 		 $('#strata-topic-radio-buttons input:radio').click(function() {
 		   $('.bbp-the-content-wrapper').parent().show();
