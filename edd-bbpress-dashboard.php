@@ -3,7 +3,7 @@
 Plugin Name:       EDD bbPress Support Dashboard - Strata Mod
 Plugin URI:        https://github.com/juliaCottage/EDD-bbPress-Support-Strata
 Description:       Support dashboard for Strata.com
-Version:           0.0.4
+Version:           0.0.5
 Author:            Strata
 Author URI:        http://strata.com
 License:           GNU General Public License v2

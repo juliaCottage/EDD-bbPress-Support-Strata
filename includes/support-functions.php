@@ -888,15 +888,15 @@ function edd_bbp_common_issues() {
 			$('#edd-common-ticket-answers div').hide();
 			$('#edd-common-ticket-answers #edd-common-issue-' + val ).show();
 		});
-		$('input[name="edd-bbp-docs-help"]').change(function() {
-			if( $(this).val() == '3' ) {
-				$('#bbp-new-topic-fields').hide();
-				$('#edd-bbp-google-search').show();
-			} else {
-				$('#edd-bbp-google-search').hide();
-				$('#bbp-new-topic-fields').show();
-			}
-		});
+		// $('input[name="edd-bbp-docs-help"]').change(function() {
+		// 	if( $(this).val() == '3' ) {
+		// 		$('#bbp-new-topic-fields').hide();
+		// 		$('#edd-bbp-google-search').show();
+		// 	} else {
+		// 		$('#edd-bbp-google-search').hide();
+		// 		$('#bbp-new-topic-fields').show();
+		// 	}
+		// });
 
 		//Show new topic fields on radio button select
 		$('#edd-bbp-common-issues').next().next().hide();
